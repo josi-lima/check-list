@@ -1,3 +1,8 @@
+/*
+  The following is a common layout you would see in an email client.
+  When a user clicks a checkbox, holds Shift, and then clicks another checkbox a few rows down or up, all the checkboxes in-between those two checkboxes should be checked. 
+*/
+
 // Variable to access the checkboxes
 
 const checkboxes = document.querySelectorAll('.inbox input[type="checkbox"]');
