@@ -1,6 +1,6 @@
 # Check List App ✅
 
-⚡ <strong>[ JavaScript / CSS / HTML ]</strong> --- https://josi-lima.github.io/check-list/
+⚡ <strong>[ JavaScript / HTML / CSS ]</strong> --- https://josi-lima.github.io/check-list/
 
 <br>
 
