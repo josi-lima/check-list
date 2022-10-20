@@ -1,1 +1,89 @@
 /* General Settings */
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Yanone+Kaffeesatz:wght@700&display=swap');
+
+body {
+  background-color: var(--bg-color-dark-blue);
+  margin: 0;
+}
+
+/* Variables */
+
+:root {
+  --bg-color-dark-blue: #283579;
+  --bg-color-light-blue: #3d80e5;
+  --bg-color-green: #125a12;
+  --bg-color-light-green: #74992e;;
+  --bg-color-gray: #444242;
+}
+
+/* Container for the form */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Title */
+
+.container-title {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 0 5.3vmax;
+  margin: 4vmax 8vmin -1.5vmax;
+  border-radius: 1.7rem;
+}
+
+h1 {
+  font: 3.7vmax "Yanone Kaffeesatz", sans-serif; 
+  text-align: center;
+  letter-spacing: .04rem;
+  word-spacing: .4rem;
+  font-weight: bold;
+  color: var(--bg-color-gray);
+}
+
+.img-title {
+  position: relative;
+  width: 30vmin;
+  height: 30vmin;
+  margin: -1.6vmax 2vmax -1.6vmax -1.6vmax;
+  border-radius: 50%;
+}
+
+/* Form */
+
+.inbox {
+  background-color: var(--bg-color-gray);
+  margin: 0 2vmax 2vmax;
+  padding: 4vmax 2vmax 3vmax;
+  font: 1.4vmax 'Fuzzy Bubbles', cursive;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin: 1vmax;
+  padding: 2vmax;
+  background-color: var(--bg-color-light-blue);
+  color: #fff;
+}
+
+.checkbox {
+  margin: 1.9vmin;
+  width: 2.5vmax;
+  height: 2.5vmax;
+  accent-color: var(--bg-color-light-green);
+}
+
+.icon {
+  position: relative;
+  width: 29vmin;
+  height: 34vmin;
+  margin: -6vmax 1vmax -4.5vmax 1vmax;
+}
+
