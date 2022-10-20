@@ -53,6 +53,7 @@ h1 {
   height: 30vmin;
   margin: -1.6vmax 2vmax -1.6vmax -1.6vmax;
   border-radius: 50%;
+  user-select: none;
 }
 
 /* Form */
