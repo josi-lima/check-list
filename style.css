@@ -11,8 +11,8 @@ body {
 :root {
   --bg-color-dark-blue: #283579;
   --bg-color-light-blue: #3d80e5;
-  --bg-color-green: #125a12;
-  --bg-color-light-green: #74992e;;
+  --bg-color-light-green: #74992e;
+  --bg-color-yellow: #efdc02; 
   --bg-color-gray: #444242;
 }
 
@@ -74,6 +74,12 @@ h1 {
   color: #fff;
 }
 
+.item:hover {
+  transform: scale(1.03);
+  transition: 0.3s ease;
+  border: .15em solid var(--bg-color-yellow);
+}
+
 .checkbox {
   margin: 1.9vmin;
   width: 2.5vmax;
@@ -87,4 +93,5 @@ h1 {
   height: 34vmin;
   margin: -6vmax 1vmax -4.5vmax 1vmax;
 }
+
 
