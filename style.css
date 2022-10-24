@@ -87,6 +87,10 @@ h1 {
   accent-color: var(--bg-color-light-green);
 }
 
+.checkbox, label {
+  cursor: pointer;
+}
+
 .icon {
   position: relative;
   width: 29vmin;
