@@ -98,4 +98,25 @@ h1 {
   margin: -6vmax 1vmax -4.5vmax 1vmax;
 }
 
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+#btn-result {
+  margin: 2vmax;
+  padding: 2vmax 6vmax;
+  border-radius: 10vmax;
+  border: none;
+  background-color: #fff; 
+  color: var(--bg-color-gray);
+  font: 4.8vmin "Yanone Kaffeesatz", sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#btn-result:hover {
+  transform: scale(1.05);
+}
+
 
