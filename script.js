@@ -59,7 +59,7 @@ function checkResults(e) {
   else if (result >= 4) {
     return secondResult();
   } 
-  else if (result > 0 && result < 4) {
+  else {
     return thirdResult();
   }
 } 
@@ -67,31 +67,41 @@ function checkResults(e) {
 // ========== Function to set up the first result ===========================
 
 const firstResult = () => {
-  const resultA = document.getElementById('result-a');
-  resultA.textContent = "You're a saver rockstar!";
-    
   const imgA = document.querySelector('#img01');
   imgA.setAttribute('src', 'images/icon-01.png');
-}
+
+  const resultA = document.getElementById('result-a');
+  resultA.textContent = "You're a saver rockstar!";
+
+  const descriptionA = document.getElementById('description-a');
+  descriptionA.textContent = "You're a saver rockstar!";
+}    
+
 
 // ========== Function to set up the second result ===========================
 
 const secondResult = () => {
-  const resultB = document.getElementById('result-b');
-  resultB.textContent = "You're a saver rockstar!";
-    
   const imgB = document.querySelector('#img02');
   imgB.setAttribute('src', 'images/icon-01.png');
+  
+  const resultB = document.getElementById('result-b');
+  resultB.textContent = "You're on track to become a saver!";
+
+  const descriptionB = document.getElementById('description-b');
+  descriptionB.textContent = "You're on track to become a saver!";
 }
 
 // ========== Function to set up the third result ===========================
 
 const thirdResult = () => {
-  const resultC = document.getElementById('result-c');
-  resultC.textContent = "You're a saver rockstar!";
-    
   const imgC = document.querySelector('#img03');
   imgC.setAttribute('src', 'images/icon-01.png');
+  
+  const resultC = document.getElementById('result-c');
+  resultC.textContent = "Oh, no! You're a real spender!";
+
+  const descriptionC = document.getElementById('description-c');
+  descriptionC.textContent = "Oh, no! You're a real spender!";
 }
 
 btn.addEventListener('click', checkResults);
