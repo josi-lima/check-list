@@ -67,8 +67,8 @@ function checkResults(e) {
 // ========== Function to set up the first result ===========================
 
 const firstResult = () => {
-  const test = document.getElementById('test');
-  test.textContent = "You're a saver rockstar!";
+  const resultA = document.getElementById('result-A');
+  resultA.textContent = "You're a saver rockstar!";
     
   const imgA = document.createElement('img');
   imgA.setAttribute('src', 'images/icon-01.png');
@@ -77,11 +77,24 @@ const firstResult = () => {
 
 // ========== Function to set up the second result ===========================
 
-
-
+const secondResult = () => {
+  const resultB = document.getElementById('result-B');
+  resultB.textContent = "You're a saver rockstar!";
+    
+  const imgB = document.createElement('img');
+  imgB.setAttribute('src', 'images/icon-01.png');
+  document.body.appendChild(imgB);
+}
 
 // ========== Function to set up the third result ===========================
 
-
+const thirdResult = () => {
+  const resultC = document.getElementById('result-C');
+  resultC.textContent = "You're a saver rockstar!";
+    
+  const imgC = document.createElement('img');
+  imgC.setAttribute('src', 'images/icon-01.png');
+  document.body.appendChild(imgC);
+}
 
 btn.addEventListener('click', checkResults);
