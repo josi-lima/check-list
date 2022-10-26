@@ -53,7 +53,7 @@ function checkResults(e) {
   });
 
   // =========== Conditionals to check and pop up the results ==========================
-  if (result > 7) {
+  if (result >= 7) {
     return firstResult();    
   } 
   else if (result >= 4) {
@@ -67,34 +67,32 @@ function checkResults(e) {
 // ========== Function to set up the first result ===========================
 
 const firstResult = () => {
-  const resultA = document.getElementById('result-A');
+  const resultA = document.getElementById('result-a');
   resultA.textContent = "You're a saver rockstar!";
     
-  const imgA = document.createElement('img');
+  const imgA = document.querySelector('#img01');
   imgA.setAttribute('src', 'images/icon-01.png');
-  document.body.appendChild(imgA);
 }
 
 // ========== Function to set up the second result ===========================
 
 const secondResult = () => {
-  const resultB = document.getElementById('result-B');
+  const resultB = document.getElementById('result-b');
   resultB.textContent = "You're a saver rockstar!";
     
-  const imgB = document.createElement('img');
+  const imgB = document.querySelector('#img02');
   imgB.setAttribute('src', 'images/icon-01.png');
-  document.body.appendChild(imgB);
 }
 
 // ========== Function to set up the third result ===========================
 
 const thirdResult = () => {
-  const resultC = document.getElementById('result-C');
+  const resultC = document.getElementById('result-c');
   resultC.textContent = "You're a saver rockstar!";
     
-  const imgC = document.createElement('img');
+  const imgC = document.querySelector('#img03');
   imgC.setAttribute('src', 'images/icon-01.png');
-  document.body.appendChild(imgC);
 }
 
 btn.addEventListener('click', checkResults);
+
