@@ -35,7 +35,6 @@ function handleCheck(e) {
 // =========== Loop event to go over every single checkbox ============================
 checkboxes.forEach(checkbox => checkbox.addEventListener('click', handleCheck));
 
-
 // =========== Variables to verify the number of checkboxes selected ===================
 let result;
 let selected = 0;
