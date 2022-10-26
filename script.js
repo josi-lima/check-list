@@ -77,7 +77,6 @@ const firstResult = () => {
   descriptionA.textContent = "You're a saver rockstar!";
 }    
 
-
 // ========== Function to set up the second result ===========================
 
 const secondResult = () => {
