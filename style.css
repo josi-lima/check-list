@@ -44,7 +44,7 @@ h1 {
   letter-spacing: .04rem;
   word-spacing: .4rem;
   font-weight: bold;
-  color: var(--bg-color-gray);
+  color: #1e1e1e;
 }
 
 .img-title {
@@ -84,7 +84,7 @@ h1 {
   margin: 1.9vmin;
   width: 2.5vmax;
   height: 2.5vmax;
-  accent-color: var(--bg-color-light-green);
+  accent-color: var(--bg-color-green);
 }
 
 .checkbox, label {
@@ -113,8 +113,8 @@ h1 {
   border-radius: 10vmax;
   border: none;
   background-color: #fff; 
-  color: var(--bg-color-gray);
-  font: 4.8vmin "Yanone Kaffeesatz", sans-serif;
+  color: #1e1e1e;
+  font: 5.4vmin "Yanone Kaffeesatz", sans-serif;
   text-decoration: none;
   cursor: pointer;
 }
