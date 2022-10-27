@@ -69,7 +69,7 @@ function checkResults(e) {
 const firstResult = () => {
   const imgA = document.querySelector('#img01');
   imgA.setAttribute('src', 'images/quiz-01.png');
-  imgA.setAttribute('class', 'img');
+  imgA.setAttribute('class', 'img');   // imgA.classList.add('img');
   imgA.style.marginTop = '10vmin';
    
   const resultA = document.getElementById('result-a');
