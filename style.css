@@ -147,6 +147,13 @@ h3 {
   line-height: 2em;
 }
 
+.img {  /* class created in JS */
+  width: 95%;
+  height: 95%;
+  border: 1vmin solid #fff;
+  border-radius: 4.7vmax;
+}
+
 /* Footer */
 
 .box-footer {
