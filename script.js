@@ -104,6 +104,8 @@ const thirdResult = () => {
   resultC.textContent = "Ei, lá! Você adora jogar seu dinheiro no ar! Tenha cuidado para não esquecer de pensar no futuro - suas necessidades são igualmente importantes, não apenas seus desejos!";
 }
 
+// =========== Event to check the results of the quiz =======================
+
 btn.addEventListener('click', checkResults);
 
 
