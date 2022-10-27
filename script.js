@@ -56,10 +56,10 @@ function checkResults(e) {
   if (result >= 7) {
     return firstResult();    
   } 
-  else if (result >= 4) {
+  else if (result >= 4 && result < 7) {
     return secondResult();
   } 
-  else {
+  else if (result >= 0 && result < 4){
     return thirdResult();
   }
 } 
