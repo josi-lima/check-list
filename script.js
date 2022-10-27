@@ -73,7 +73,7 @@ const firstResult = () => {
   imgA.style.height = '95%';
   imgA.style.marginTop = '10vmin';
   imgA.style.border = '1vmin solid #fff';
-  imgA.style.borderRadius = '3.7vmax';
+  imgA.style.borderRadius = '4.7vmax';
   
   const resultA = document.getElementById('result-a');
   resultA.style.marginBottom = '-6vmin';
@@ -89,7 +89,7 @@ const secondResult = () => {
   imgB.style.height = '95%';
   imgB.style.marginTop = '1vmin';
   imgB.style.border = '1vmin solid #fff';
-  imgB.style.borderRadius = '3.7vmax';
+  imgB.style.borderRadius = '4.7vmax';
     
   const resultB = document.getElementById('result-b');
   resultB.textContent = "Ok, você gosta de gastar seu dinheiro, mas na maioria das vezes você também conhece seus limites. Tenha certeza de não esbanjar demais e continue mantendo um bom equilíbrio!";
@@ -104,7 +104,7 @@ const thirdResult = () => {
   imgC.style.height = '95%';
   imgC.style.marginTop = '-4vmin';
   imgC.style.border = '1vmin solid #fff';
-  imgC.style.borderRadius = '3.7vmax';
+  imgC.style.borderRadius = '4.7vmax';
   
   const resultC = document.getElementById('result-c');
   resultC.textContent = "Ei, lá! Você adora jogar seu dinheiro pela janela! Tenha cuidado para não esquecer de pensar no futuro - suas necessidades são igualmente importantes, não apenas seus desejos!";
