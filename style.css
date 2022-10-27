@@ -119,4 +119,23 @@ h1 {
   transform: scale(1.05);
 }
 
+.box {
+  font: 1.5vmax 'Fuzzy Bubbles', cursive;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2vmax auto;
+  padding: 1vmax 3vmax;
+  width: 50%;
+  height: 50%; 
+  background-color: var(--bg-color-light-green);
+  border: 1em solid #fff;
+  border-radius: 1.7rem;
+}
+
+h3 {
+  line-height: 2em;
+}
 
