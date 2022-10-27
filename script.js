@@ -59,7 +59,7 @@ function checkResults(e) {
   else if (result >= 4 && result < 7) {
     return secondResult();
   } 
-  else if (result >= 0 && result < 4){
+  else {
     return thirdResult();
   }
 } 
@@ -92,7 +92,7 @@ const secondResult = () => {
   imgB.style.borderRadius = '3.7vmax';
     
   const resultB = document.getElementById('result-b');
-  resultB.textContent = "Ok, você gosta de gastar seu dinheiro, mas na maioria das vezes você também conhece seus limites. Tenha certeza de não gastar demais e continue mantendo um bom equilíbrio!";
+  resultB.textContent = "Ok, você gosta de gastar seu dinheiro, mas na maioria das vezes você também conhece seus limites. Tenha certeza de não esbanjar demais e continue mantendo um bom equilíbrio!";
 }
 
 // ========== Function to set up the third result ===========================
@@ -107,7 +107,7 @@ const thirdResult = () => {
   imgC.style.borderRadius = '3.7vmax';
   
   const resultC = document.getElementById('result-c');
-  resultC.textContent = "Ei, lá! Você adora jogar seu dinheiro no ar! Tenha cuidado para não esquecer de pensar no futuro - suas necessidades são igualmente importantes, não apenas seus desejos!";
+  resultC.textContent = "Ei, lá! Você adora jogar seu dinheiro pela janela! Tenha cuidado para não esquecer de pensar no futuro - suas necessidades são igualmente importantes, não apenas seus desejos!";
 }
 
 // =========== Event to check the results of the quiz =======================
