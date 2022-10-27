@@ -128,7 +128,7 @@ h1 {
 /* Container for the result of the quiz */
 
 .box {
-  font: 1.5vmax 'Fuzzy Bubbles', cursive;
+  font: 1.3vmax 'Fuzzy Bubbles', cursive;
   text-align: center;
   display: flex;
   justify-content: center;
