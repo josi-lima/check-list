@@ -136,7 +136,7 @@ h1 {
   flex-direction: column;
   margin: 2vmax auto;
   padding: 1vmax 3vmax;
-  width: 50%;
+  width: 60%;
   height: 50%; 
   background-color: var(--bg-color-light-green);
   border: 1em solid #fff;
