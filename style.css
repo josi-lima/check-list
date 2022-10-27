@@ -16,6 +16,7 @@ body {
   --bg-color-light-green: #bcf566;
   --bg-color-yellow: #efdc02; 
   --bg-color-gray: #444242;
+  --bg-color-dark-gray: #1e1e1e;
 }
 
 /* Container for the form */
@@ -46,7 +47,7 @@ h1 {
   letter-spacing: .04rem;
   word-spacing: .4rem;
   font-weight: bold;
-  color: #1e1e1e;
+  color: var(--bg-color-dark-gray);
 }
 
 .img-title {
@@ -115,7 +116,7 @@ h1 {
   border-radius: 10vmax;
   border: none;
   background-color: #fff; 
-  color: #1e1e1e;
+  color: var(--bg-color-dark-gray);
   font: 5.4vmin "Yanone Kaffeesatz", sans-serif;
   text-decoration: none;
   cursor: pointer;
