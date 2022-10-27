@@ -68,40 +68,42 @@ function checkResults(e) {
 
 const firstResult = () => {
   const imgA = document.querySelector('#img01');
-  imgA.setAttribute('src', 'images/icon-01.png');
-
+  imgA.setAttribute('src', 'images/quiz-01.png');
+  imgA.style.width = '90%';
+  imgA.style.height = '90%';
+  imgA.style.marginTop = '10vmin';
+  
   const resultA = document.getElementById('result-a');
-  resultA.textContent = "You're a saver rockstar!";
-
-  const descriptionA = document.getElementById('description-a');
-  descriptionA.textContent = "You're a saver rockstar!";
-}    
-
+  resultA.style.marginBottom = '-5vmin';
+  resultA.textContent = "Uau! Você realmente sabe como economizar e investir seu dinheiro! Seus hábitos combinam com todas as habilidades positivas de uma excelente gestão financeira!";
+}
+    
 // ========== Function to set up the second result ===========================
 
 const secondResult = () => {
   const imgB = document.querySelector('#img02');
-  imgB.setAttribute('src', 'images/icon-01.png');
-  
+  imgB.setAttribute('src', 'images/quiz-02.png');
+  imgB.style.width = '90%';
+  imgB.style.height = '90%';
+  imgB.style.marginTop = '1vmin';
+    
   const resultB = document.getElementById('result-b');
-  resultB.textContent = "You're on track to become a saver!";
-
-  const descriptionB = document.getElementById('description-b');
-  descriptionB.textContent = "You're on track to become a saver!";
+  resultB.textContent = "Ok, você gosta de gastar seu dinheiro, mas na maioria das vezes você também conhece seus limites. Tenha certeza de não gastar demais e continue mantendo um bom equilíbrio!";
 }
 
 // ========== Function to set up the third result ===========================
 
 const thirdResult = () => {
   const imgC = document.querySelector('#img03');
-  imgC.setAttribute('src', 'images/icon-01.png');
+  imgC.setAttribute('src', 'images/quiz-03.png');
+  imgC.style.width = '90%';
+  imgC.style.height = '90%';
+  imgC.style.marginTop = '-4vmin';
   
   const resultC = document.getElementById('result-c');
-  resultC.textContent = "Oh, no! You're a real spender!";
-
-  const descriptionC = document.getElementById('description-c');
-  descriptionC.textContent = "Oh, no! You're a real spender!";
+  resultC.textContent = "Ei, lá! Você adora jogar seu dinheiro no ar! Tenha cuidado para não esquecer de pensar no futuro - suas necessidades são igualmente importantes, não apenas seus desejos!";
 }
 
 btn.addEventListener('click', checkResults);
+
 
