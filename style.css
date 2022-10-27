@@ -150,12 +150,12 @@ h3 {
 /* Footer */
 
 .box-footer {
-  font: 1.2vmax "Yanone Kaffeesatz", sans-serif;
+  font: 1.3vmax "Yanone Kaffeesatz", sans-serif;
   text-align: center;
   letter-spacing: .04em;
   white-space: nowrap;
   padding: 1vmin;
-  max-width: 45%;
+  max-width: 55%;
   margin: 4vmax auto 1.5vmax;
   background: rgba(202, 243, 173, 0.138);
   border-radius: 1.7rem;
