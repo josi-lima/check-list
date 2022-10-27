@@ -69,8 +69,8 @@ function checkResults(e) {
 const firstResult = () => {
   const imgA = document.querySelector('#img01');
   imgA.setAttribute('src', 'images/quiz-01.png');
-  imgA.style.width = '90%';
-  imgA.style.height = '90%';
+  imgA.style.width = '95%';
+  imgA.style.height = '95%';
   imgA.style.marginTop = '10vmin';
   imgA.style.border = '1vmin solid #fff';
   imgA.style.borderRadius = '3.7vmax';
@@ -85,8 +85,8 @@ const firstResult = () => {
 const secondResult = () => {
   const imgB = document.querySelector('#img02');
   imgB.setAttribute('src', 'images/quiz-02.png');
-  imgB.style.width = '90%';
-  imgB.style.height = '90%';
+  imgB.style.width = '95%';
+  imgB.style.height = '95%';
   imgB.style.marginTop = '1vmin';
   imgB.style.border = '1vmin solid #fff';
   imgB.style.borderRadius = '3.7vmax';
@@ -100,8 +100,8 @@ const secondResult = () => {
 const thirdResult = () => {
   const imgC = document.querySelector('#img03');
   imgC.setAttribute('src', 'images/quiz-03.png');
-  imgC.style.width = '90%';
-  imgC.style.height = '90%';
+  imgC.style.width = '95%';
+  imgC.style.height = '95%';
   imgC.style.marginTop = '-4vmin';
   imgC.style.border = '1vmin solid #fff';
   imgC.style.borderRadius = '3.7vmax';
