@@ -69,12 +69,9 @@ function checkResults(e) {
 const firstResult = () => {
   const imgA = document.querySelector('#img01');
   imgA.setAttribute('src', 'images/quiz-01.png');
-  imgA.style.width = '95%';
-  imgA.style.height = '95%';
+  imgA.setAttribute('class', 'img');
   imgA.style.marginTop = '10vmin';
-  imgA.style.border = '1vmin solid #fff';
-  imgA.style.borderRadius = '4.7vmax';
-  
+   
   const resultA = document.getElementById('result-a');
   resultA.style.marginBottom = '-6vmin';
   resultA.textContent = "Uau! Você realmente sabe como economizar e investir seu dinheiro! Seus hábitos combinam com todas as habilidades positivas de uma excelente gestão financeira!";
@@ -85,12 +82,9 @@ const firstResult = () => {
 const secondResult = () => {
   const imgB = document.querySelector('#img02');
   imgB.setAttribute('src', 'images/quiz-02.png');
-  imgB.style.width = '95%';
-  imgB.style.height = '95%';
+  imgB.setAttribute('class', 'img');
   imgB.style.marginTop = '1vmin';
-  imgB.style.border = '1vmin solid #fff';
-  imgB.style.borderRadius = '4.7vmax';
-    
+     
   const resultB = document.getElementById('result-b');
   resultB.textContent = "Ok, você gosta de gastar seu dinheiro, mas na maioria das vezes você também conhece seus limites. Tenha certeza de não esbanjar demais e continue mantendo um bom equilíbrio!";
 }
@@ -100,12 +94,9 @@ const secondResult = () => {
 const thirdResult = () => {
   const imgC = document.querySelector('#img03');
   imgC.setAttribute('src', 'images/quiz-03.png');
-  imgC.style.width = '95%';
-  imgC.style.height = '95%';
+  imgC.setAttribute('class', 'img');
   imgC.style.marginTop = '-4vmin';
-  imgC.style.border = '1vmin solid #fff';
-  imgC.style.borderRadius = '4.7vmax';
-  
+    
   const resultC = document.getElementById('result-c');
   resultC.textContent = "Ei, lá! Você adora jogar seu dinheiro pela janela! Tenha cuidado para não esquecer de pensar no futuro - suas necessidades são igualmente importantes, não apenas seus desejos!";
 }
