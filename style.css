@@ -91,12 +91,16 @@ h1 {
   cursor: pointer;
 }
 
+/* Images inside the form */
+
 .icon {
   position: relative;
   width: 29vmin;
   height: 34vmin;
   margin: -6vmax 1vmax -4.5vmax 1vmax;
 }
+
+/* Button to check the results */
 
 .button {
   display: flex;
@@ -118,6 +122,8 @@ h1 {
 #btn-result:hover {
   transform: scale(1.05);
 }
+
+/* Container for the result of the quiz */
 
 .box {
   font: 1.5vmax 'Fuzzy Bubbles', cursive;
