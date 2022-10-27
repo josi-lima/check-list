@@ -146,3 +146,23 @@ h3 {
   line-height: 2em;
 }
 
+/* Footer */
+
+.box-footer {
+  font: 1.2vmax "Yanone Kaffeesatz", sans-serif;
+  text-align: center;
+  letter-spacing: .04em;
+  white-space: nowrap;
+  padding: 1vmin;
+  max-width: 45%;
+  margin: 4vmax auto 1.5vmax;
+  background: rgba(202, 243, 173, 0.138);
+  border-radius: 1.7rem;
+  border: 1px solid rgba(202, 243, 173, 0.203);
+  box-shadow: 0 4px 30px rgba(92, 244, 87, 0.152);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+
+
