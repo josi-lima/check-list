@@ -12,7 +12,8 @@ body {
 :root {
   --bg-color-dark-blue: #283579;
   --bg-color-light-blue: #3d80e5;
-  --bg-color-light-green: #74992e;
+  --bg-color-green: #74992e;
+  --bg-color-light-green: #bcf566;
   --bg-color-yellow: #efdc02; 
   --bg-color-gray: #444242;
 }
