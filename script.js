@@ -3,8 +3,10 @@
   When a user clicks a checkbox, holds Shift, and then clicks another checkbox a few rows down or up, all the checkboxes in-between those two checkboxes should be checked. 
 */
 
-// =========== Variable to access the checkboxes =================================
+// =========== Variables to access the elements =================================
 const checkboxes = document.querySelectorAll('.inbox input[type="checkbox"]');
+
+const btn = document.querySelector('#btn-result');
 
 // =========== Variable to store the last checked box ============================
 let lastChecked;
@@ -38,8 +40,6 @@ checkboxes.forEach(checkbox => checkbox.addEventListener('click', handleCheck));
 // =========== Variables to verify the number of checkboxes selected ===================
 let result;
 let selected = 0;
-
-const btn = document.querySelector('#btn-result');
 
 // =========== Function to verify how many checkboxes were selected ===================
 
@@ -104,6 +104,14 @@ const thirdResult = () => {
 // =========== Event to check the results of the quiz =======================
 
 btn.addEventListener('click', checkResults);
+
+// =========== Function to activate the enter button to get the results of the quiz ==============
+
+document.addEventListener("keypress", function(e) {
+  if(e.key === "Enter") {
+    btn.click();
+  }
+});
 
 
 
