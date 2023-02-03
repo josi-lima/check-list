@@ -103,9 +103,6 @@ const thirdResult = () => {
 // =========== Event to check the results of the quiz =======================
 
 btn.addEventListener('click', checkResults);
-btn.addEventListener('click', function () => {
-   document.location.reload;
-});
 
 // =========== Function to activate the enter button to get the results of the quiz ==============
 
